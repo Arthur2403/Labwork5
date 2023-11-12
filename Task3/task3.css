@@ -1,0 +1,79 @@
+body{
+    position: fixed;
+    background-color: rgb(255, 255, 127);
+}
+h1{
+    margin: 0px 600px;
+}
+.calc{
+    height: 175px;
+    width: 150px;
+    top: 100vw;
+    position: absolute;
+    left: 20vw;
+    rotate: 325deg;
+    transform: translate();
+    animation: up1 2s linear forwards;
+}
+.book{
+    rotate: 340deg;
+    bottom: -100vw;
+    height: 300px;
+    left: 30vw;
+    position: absolute;
+    width: 250px;
+    transform: translate();
+    animation: up2 2s 0.5s linear forwards;
+}
+.paper{
+    rotate: 20deg;
+    bottom: -100vw;
+    left: 50vw;
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    transform: translate();
+    animation: up2 2s 1s linear forwards;
+}
+.pallete{
+    left: 65vw;
+    bottom: -100vw;
+    height: 175px;
+    position: absolute;
+    width: 150px;
+    rotate: 35deg;
+    transform: translate();
+    animation: up1 2s 1.5s linear forwards;
+}
+.pencil{
+    rotate: 90deg;
+    bottom: -100vw;
+    position: absolute;
+    left: 45vw;
+    transform: translate();
+    animation: up3 2s 2s linear forwards;
+}
+@keyframes up1 {
+    0%{
+        top: 100vw;
+    }
+    100%{
+        top: 20vw;
+    }  
+}
+@keyframes up2 {
+    0%{
+        top: 100vw;
+    }
+    100%{
+        top: 7vw;
+    }  
+}
+@keyframes up3 {
+    0%{
+        top: 100vw;
+    }
+    100%{
+        top: 25vw;
+    }  
+}

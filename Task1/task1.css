@@ -1,0 +1,24 @@
+.Bar{
+    height: 100px;
+    width: 400px;
+    border-color: orangered;
+    border-style: solid;
+    margin: 50px auto;
+    position: relative;
+}
+.loudingcube{
+    background-color: orangered;
+    height: 100px;
+    width: 50px;
+    transform: translate();
+    position: absolute;
+    animation: louding 2.5s alternate infinite linear;
+}
+@keyframes louding {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 350px;
+    }
+}

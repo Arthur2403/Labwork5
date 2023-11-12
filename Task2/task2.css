@@ -1,0 +1,14 @@
+img{
+    top: 10%;
+    position: absolute;
+    margin: 0 40%;
+    background-color: gray;
+    height: 10%;
+    width: 8%;
+    image-rendering: gray;
+    transition: all 5s linear;
+}
+img:hover{
+    transform: scale(2,2);
+    background-color: rgb(240, 106, 106)
+}
